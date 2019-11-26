@@ -43,7 +43,8 @@ header {
   display: none;
 }
 
-h1 {
+h1,
+h4 {
   font-family: "Oleo Script";
   line-height: 80%;
   font-size: 3rem;
@@ -111,7 +112,7 @@ header li:first-child {
 .card p {
   position: absolute;
   bottom: 0;
-  background-color: rgba(255, 100, 150, 0.4);
+  background-color: rgba(255, 100, 150, .4);
   width: 100%;
   margin: 0;
   padding: .75em;
@@ -131,6 +132,7 @@ header a:hover {
 a:hover p {
   background-color: #ff9fd5;
 }
+
 .card .img-flex {
   border-radius: 12px;
 }
@@ -144,9 +146,10 @@ footer {
 }
 
 h3 {
+  display: inline-block;
   color: #fff;
   font-family: "Oleo Script";
-  margin: .4em
+  margin: .4em;
 }
 
 footer nav {
@@ -305,7 +308,7 @@ small {
     display: none;
   }
 
-  h1 {
+  h4 {
     font-size: 4rem;
   }
 
