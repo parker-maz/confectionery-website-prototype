@@ -44,7 +44,7 @@ header {
 }
 
 h1,
-h4 {
+.main-h {
   font-family: "Oleo Script";
   line-height: 80%;
   font-size: 3rem;
