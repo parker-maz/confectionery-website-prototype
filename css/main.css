@@ -193,3 +193,36 @@ small {
   }
 
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  header ol {
+    flex-wrap: nowrap;
+  }
+
+  header li:first-child {
+    width: 20%;
+  }
+
+  header li {
+    width: 20%;
+  }
+
+  .cards {
+    display: flex;
+    margin: 1rem .5rem;
+  }
+
+  .card {
+    margin: 0 .5rem;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+}
