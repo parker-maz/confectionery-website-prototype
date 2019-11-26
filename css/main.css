@@ -39,6 +39,10 @@ header {
   text-align: center;
 }
 
+.second-h {
+  display: none;
+}
+
 h1 {
   font-family: "Oleo Script";
   line-height: 80%;
@@ -99,11 +103,12 @@ header li:first-child {
 }
 
 .card {
+  display: block;
   position: relative;
   margin: 0 0 1rem;
 }
 
-.card a {
+.card p {
   position: absolute;
   bottom: 0;
   background-color: rgba(255, 100, 150, 0.4);
@@ -119,7 +124,11 @@ header li:first-child {
   text-decoration: none;
 }
 
-a:hover {
+header a:hover {
+  background-color: #ff9fd5;
+}
+
+a:hover p {
   background-color: #ff9fd5;
 }
 .card .img-flex {
@@ -245,8 +254,103 @@ small {
     line-height: 1.5;
   }
 
+  section {
+    display: flex;
+    align-items: center;
+    background-color: #fce;
+  }
+
+  .fancy {
+    width: 100%;
+  }
+
+  .fancy h2 {
+    width: 100%;
+  }
+
+  .cover-img {
+    max-height: 8.5em;
+    max-width: 50%;
+  }
+
   footer ol {
     margin: 0;
+  }
+
+}
+
+@media only screen and (min-width: 77em) {
+
+  .fancy h2 {
+    height: 4.25em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .second-h {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .main-h {
+    display: none;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .head-img {
+    order: 2;
+    display: block;
+    position: relative;
+    max-height: 12em;
+    overflow: hidden;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header nav {
+    order: 1;
+  }
+
+  .card {
+    width: 33.3333%;
+    height: 100%;
+  }
+
+  .card-3 {
+    display: block;
+    overflow: hidden;
+  }
+
+  footer h3 {
+    order: 1;
+  }
+
+  footer nav {
+    order: 2;
+    width: 75%;
+  }
+
+  footer .social-group {
+    order: 3;
+  }
+
+  small {
+    order: 4;
   }
 
 }
