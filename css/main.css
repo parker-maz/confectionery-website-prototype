@@ -34,12 +34,153 @@ body {
   display: none;
 }
 
-h1,
-h3 {
-  font-family: "Oleo Script";
-  font-size: 2rem;
+header {
+  background-color: #ff4ca3;
+  text-align: center;
 }
 
-h2 {
+h1 {
+  font-family: "Oleo Script";
+  line-height: 80%;
+  font-size: 3rem;
+  color: #fff;
+  margin: 0;
+  padding: 1rem;
+}
+
+header ol {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  display: block;
+  width: 50%;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
   font-family: Playball;
+  color: #fff;
+  font-size: 1.5rem;
+  display: block;
+  padding: .5em 0;
+}
+
+header li:first-child {
+  width: 100%;
+}
+
+.fancy h2 {
+  font-family: Playball;
+  color: #0df;
+  background-color: #fff;
+  font-size: 2rem;
+  padding: .65em;
+}
+
+.fancy {
+  display: block;
+  margin: 0;
+  padding: .5em 0;
+  background-color: #fce;
+}
+
+.cover-img {
+  max-height: 10em;
+  overflow: hidden;
+}
+
+.cards {
+  margin: 1rem .5rem;
+}
+
+.card {
+  position: relative;
+  margin: 0 0 1rem;
+}
+
+.card a {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(255, 100, 150, 0.4);
+  width: 100%;
+  margin: 0;
+  padding: .75em;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  display: block;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ff9fd5;
+}
+.card .img-flex {
+  border-radius: 12px;
+}
+
+footer {
+  background-color: #ff4ca3;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+h3 {
+  color: #fff;
+  font-family: "Oleo Script";
+  margin: .4em
+}
+
+footer nav {
+  width: 100%;
+}
+
+footer ol {
+  display: flex;
+  padding: 0;
+}
+
+footer li {
+  list-style-type: none;
+  width: 20%;
+  text-align: center;
+}
+
+footer nav a {
+  font-size: 1rem;
+}
+
+.social-group {
+  margin: .4em;
+  display: flex;
+}
+
+.social {
+  margin: 3px;
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.edit {
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+footer a:hover {
+  background-color: #fff;
+  color: #0df;
+  border-radius: 10px;
+}
+
+small {
+  color: #fff;
 }
