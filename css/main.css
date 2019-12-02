@@ -225,6 +225,10 @@ small {
     flex-wrap: nowrap;
   }
 
+  header li:first-child a {
+    font-size: 1.5rem;
+  }
+
   header li:first-child {
     width: 20%;
   }
