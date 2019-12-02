@@ -30,10 +30,6 @@ body {
   display: none;
 }
 
-.card-3 {
-  display: none;
-}
-
 header {
   background-color: #ff4ca3;
   text-align: center;
@@ -107,6 +103,10 @@ header li:first-child {
   display: block;
   position: relative;
   margin: 0 0 1rem;
+}
+
+.card-3 {
+  display: none;
 }
 
 .card p {
@@ -194,8 +194,10 @@ footer a:hover {
 }
 
 small {
+  width: 100%;
   color: #fff;
   font-size: .6rem;
+  padding: 0 .5em .5em;
 }
 
 @media only screen and (min-width: 25em) {
