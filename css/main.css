@@ -75,12 +75,17 @@ header li:first-child {
   width: 100%;
 }
 
+header li:first-child a {
+  font-size: 2rem;
+}
+
 .fancy h2 {
   font-family: Playball;
   color: #0df;
   background-color: #fff;
   font-size: 2rem;
   padding: .65em;
+  vertical-align: middle;
 }
 
 .fancy {
@@ -311,14 +316,14 @@ small {
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .head-img {
     order: 2;
     display: block;
     position: relative;
-    max-height: 12em;
+    max-height: 15em;
     overflow: hidden;
   }
 
